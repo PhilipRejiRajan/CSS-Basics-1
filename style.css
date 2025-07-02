@@ -1,17 +1,14 @@
 * {
     background-color: white;
-    font-family: 'Courier New', monospace;
+    font-family: Arial, sans-serif;
 }
 
 #logo {
-    width: 150px;
-    height: 75px;
-    padding: 20px;
+    width: 210px;
+    height: 80px;
 }
 
 header {
-    width: 80%;
-    margin: auto;
     box-shadow: 5px 10px 5px gainsboro;
     border-radius: 10px;
     position: sticky;
@@ -21,20 +18,47 @@ header {
 #header-nav {
     float: right;
     padding: 20px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-right: 20px;
 }
 
 .nav-links:link {
     text-decoration: none;
-    color: green;
+    color: #00b300;
     padding: 15px;
 }
 
 .nav-links:visited {
-    color: green;
+    color: #00b300;
 }
 
-.nav-links:hover {
-    background-color: greenyellow;
+aside {
+    margin-top: 15px;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    padding: 10px;
+}
+
+#sidebar-para {
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+#sidebar-navlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-navlinks {
+    text-decoration: none;
+    color: #00b300;
+}
+
+.sidebar-list-styling {
+    padding-bottom: 10px;
+}
+
+#sidebar-heading {
+    margin-bottom: 0;
 }
