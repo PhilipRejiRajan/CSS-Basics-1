@@ -8,6 +8,10 @@
     height: 80px;
 }
 
+h3 {
+    margin: 0;
+}
+
 header {
     box-shadow: 5px 10px 5px gainsboro;
     border-radius: 10px;
@@ -35,9 +39,8 @@ header {
 aside {
     margin-top: 15px;
     width: 20%;
-    height: 100%;
-    position: fixed;
     padding: 10px;
+    float: left;
 }
 
 #sidebar-para {
@@ -59,6 +62,8 @@ aside {
     padding-bottom: 10px;
 }
 
-#sidebar-heading {
-    margin-bottom: 0;
+article {
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 50px;
 }
