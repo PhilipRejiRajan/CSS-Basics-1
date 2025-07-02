@@ -1,10 +1,9 @@
 * {
-    background-color: white;
     font-family: Arial, sans-serif;
 }
 
 #logo {
-    width: 210px;
+    width: 220px;
     height: 80px;
 }
 
@@ -13,6 +12,7 @@ h3 {
 }
 
 header {
+    background-color: white;
     box-shadow: 5px 10px 5px gainsboro;
     border-radius: 10px;
     position: sticky;
@@ -37,6 +37,7 @@ header {
 }
 
 aside {
+    background-color: white;
     margin-top: 15px;
     width: 20%;
     padding: 10px;
@@ -44,7 +45,7 @@ aside {
 }
 
 #sidebar-para {
-    font-size: smaller;
+    font-size: small;
     margin-top: 5px;
 }
 
@@ -63,7 +64,45 @@ aside {
 }
 
 article {
+    background-color: white;
     margin-top: 25px;
     margin-left: 25%;
     margin-right: 50px;
+}
+
+section {
+    background-color: white;
+    box-shadow: 5px -10px 5px gainsboro;
+    border-radius: 10px;
+    position: sticky;
+    bottom: 0;
+}
+
+#adsection-content-div {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+#adsection-para {
+    font-size: smaller;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+#adsection-navlist-div {
+    text-align: right;
+    width: 100px;
+    padding: 20px;
+    margin-left: 90%;
+}
+
+footer {
+    background-color: #00b300;
+    color: white;
+}
+
+#footer-para {
+    margin: 0;
+    margin-left: 45%;
 }
